@@ -59,10 +59,10 @@ public class EmployeeServiceImpl implements EmployeeService {
 	}
 
 	@Override
-	public String updateEmployee(Employee employee, int id) {
-
+	public Employee updateEmployee(Employee employee, int id) {
+		
 		employeeRepository.saveAndFlush(employee);
-		return "Employee updated successfully.";
+		return employee;
 	}
 
 }

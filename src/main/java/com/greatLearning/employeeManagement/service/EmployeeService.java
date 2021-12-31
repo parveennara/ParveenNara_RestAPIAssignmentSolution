@@ -20,6 +20,6 @@ public interface EmployeeService {
 
 	public List<Employee> getEmployeesCustomSortedByFirstName(Direction direction);
 
-	public String updateEmployee(Employee employee, int id);
+	public Employee updateEmployee(Employee employee, int id);
 
 }

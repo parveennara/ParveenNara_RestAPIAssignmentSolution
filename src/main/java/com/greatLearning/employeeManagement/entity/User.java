@@ -17,7 +17,6 @@ import javax.persistence.Table;
 
 import org.springframework.security.crypto.bcrypt.BCrypt;
 
-import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Entity
